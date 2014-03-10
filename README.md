@@ -1,10 +1,22 @@
-CakePHP
+CakePHP demo 2014
 =======
 
-[![CakePHP](http://cakephp.org/img/cake-logo.png)](http://www.cakephp.org)
+Files that are of interest
+------------------
+Your app:
+* Only edit files in ./app/
 
-CakePHP is a rapid development framework for PHP which uses commonly known design patterns like Active Record, Association Data Mapping, Front Controller and MVC.
-Our primary goal is to provide a structured framework that enables PHP users at all levels to rapidly develop robust web applications, without any loss to flexibility.
+Configs:
+* database.php: ./app/Config/database.php
+* core.php: ./app/Config/core.php
+
+Dessert:
+* Model: ./app/Model/Dessert.php
+* Controller: ./app/Controller/DessertsController.php
+* Views: ./app/View/Desserts/*.ctp
+
+Your layout:
+* The default: ./app/View/Layouts/default.ctp
 
 Some Handy Links
 ----------------
