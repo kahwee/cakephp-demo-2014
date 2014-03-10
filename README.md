@@ -3,8 +3,10 @@ CakePHP demo 2014
 
 Files that are of interest
 ------------------
+
 Your app:
 * Only edit files in ./app/
+* Database dump: ./database-dump/cakedemo_2014-03-10.sql
 
 Configs:
 * database.php: ./app/Config/database.php
@@ -17,6 +19,9 @@ Dessert:
 
 Your layout:
 * The default: ./app/View/Layouts/default.ctp
+
+Browse through the presentation:
+* [Gentle introduction to CakePHP](https://speakerdeck.com/kahwee/gentle-introduction-to-cakephp)
 
 Some Handy Links
 ----------------
@@ -49,7 +54,3 @@ Get Support!
 [GitHub Issues](https://github.com/cakephp/cakephp/issues) - Got issues? Please tell us!
 
 [Roadmaps](https://github.com/cakephp/cakephp/wiki#roadmaps) - Want to contribute? Get involved!
-
-[![Bake Status](https://secure.travis-ci.org/cakephp/cakephp.png?branch=master)](http://travis-ci.org/cakephp/cakephp)
-
-![Cake Power](https://raw.github.com/cakephp/cakephp/master/lib/Cake/Console/Templates/skel/webroot/img/cake.power.gif)
