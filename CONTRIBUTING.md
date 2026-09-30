@@ -1,3 +1,6 @@
+> Historical upstream CakePHP contributor instructions for the bundled framework.
+> For this demo’s setup and source locations, see [README.md](README.md).
+
 # How to contribute
 
 CakePHP loves to welcome your contributions. There are several ways to help out:

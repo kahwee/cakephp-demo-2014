@@ -1,56 +1,26 @@
-CakePHP demo 2014
-=======
+# cakephp-demo-2014
 
-Files that are of interest
-------------------
+Dessert CRUD example from a 2014 CakePHP introduction. The application is
+in `app/`; the bundled framework is in `lib/Cake/`.
 
-Your app:
-* Only edit files in ./app/
-* Database dump: ./database-dump/cakedemo_2014-03-10.sql
+## Setup and example
 
-Configs:
-* database.php: ./app/Config/database.php
-* core.php: ./app/Config/core.php
+Use a compatible historical PHP/MySQL environment. The original manifest
+requires PHP >=5.2.8 and mcrypt; it does not establish modern PHP compatibility.
 
-Dessert:
-* Model: ./app/Model/Dessert.php
-* Controller: ./app/Controller/DessertsController.php
-* Views: ./app/View/Desserts/*.ctp
+1. Import [database-dump/cakedemo_2014-03-10.sql](database-dump/cakedemo_2014-03-10.sql).
+2. Set local database credentials in `app/Config/database.php` and review
+   `app/Config/core.php`.
+3. Serve the application with a CakePHP-compatible web server and open
+   `/desserts` (or `index.php/desserts` when URL rewriting is unavailable).
 
-Your layout:
-* The default: ./app/View/Layouts/default.ctp
+The [Dessert model](app/Model/Dessert.php),
+[Desserts controller](app/Controller/DessertsController.php), and
+[views](app/View/Desserts/) contain the example. The page layout is
+`app/View/Layouts/default.ctp`.
 
-Browse through the presentation:
-* [Gentle introduction to CakePHP](https://speakerdeck.com/kahwee/gentle-introduction-to-cakephp)
+[Original presentation](https://speakerdeck.com/kahwee/gentle-introduction-to-cakephp)
+· [Historical contributor notes](CONTRIBUTING.md)
 
-Some Handy Links
-----------------
-
-[CakePHP](http://www.cakephp.org) - The rapid development PHP framework
-
-[CookBook](http://book.cakephp.org) - THE CakePHP user documentation; start learning here!
-
-[API](http://api.cakephp.org) - A reference to CakePHP's classes
-
-[Plugins](http://plugins.cakephp.org/) - A repository of extensions to the framework
-
-[The Bakery](http://bakery.cakephp.org) - Tips, tutorials and articles
-
-[Community Center](http://community.cakephp.org) - A source for everything community related
-
-[Training](http://training.cakephp.org) - Join a live session and get skilled with the framework
-
-[CakeFest](http://cakefest.org) - Don't miss our annual CakePHP conference
-
-[Cake Software Foundation](http://cakefoundation.org) - Promoting development related to CakePHP
-
-Get Support!
-------------
-
-[#cakephp](http://webchat.freenode.net/?channels=#cakephp) on irc.freenode.net - Come chat with us, we have cake
-
-[Google Group](https://groups.google.com/group/cake-php) - Community mailing list and forum
-
-[GitHub Issues](https://github.com/cakephp/cakephp/issues) - Got issues? Please tell us!
-
-[Roadmaps](https://github.com/cakephp/cakephp/wiki#roadmaps) - Want to contribute? Get involved!
+This documentation pass did not install the legacy runtime, database, or
+PHPUnit 3.7 test environment.
